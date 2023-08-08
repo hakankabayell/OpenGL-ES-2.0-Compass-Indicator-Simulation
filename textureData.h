@@ -4,7 +4,7 @@
 #include "stb_image.h"
 
 // texture datas
-const char* texturePath = "pusula.jpeg";  // texture used
+const char* texturePath = "pusula.jpg";  // texture used
 int texWidth, texHeight, texChannels; // variables that store the value of width, height, channels of texture
 unsigned char* texData; // variable that store the value of pixels of texture. (RGBA)
 
