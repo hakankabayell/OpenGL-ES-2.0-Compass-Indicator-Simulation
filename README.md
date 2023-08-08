@@ -64,8 +64,12 @@ The main entry point of the program. It initializes GLFW, creates a window, sets
 * Compile Code for Linux:
 g++ pusula.cpp -o pusula -lEGL -lGLESv2 -lglfw -lstb
 
+**********************************************************
+
+OUTPUT
 
 
+https://github.com/hakankabayell/OpenGL-ES-2.0-CompassIndicatorSimulation/assets/127239422/bd22045b-2f21-4061-9acd-a6163be38420
 
 
 
