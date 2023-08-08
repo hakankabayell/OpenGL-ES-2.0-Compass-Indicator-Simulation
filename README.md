@@ -20,6 +20,7 @@ FUNCTIONS
   
 This function creates an EGL context and surface. It initializes EGL, selects an appropriate configuration, creates a window surface, and establishes a rendering context.
 
+![WhatsApp Görsel 2023-08-08 saat 07 49 01](https://github.com/hakankabayell/OpenGL-ES-2.0-CompassIndicatorSimulation/assets/127239422/5df09e94-8ecc-4a4c-97cb-e30a634e9863)
 
 
 * createProgram() Function:
@@ -34,9 +35,13 @@ This function loads an OpenGL texture from image data. It generates a texture ID
 
 This function draws a circle using a texture. It uses a shader program, calculates vertex positions and texture coordinates, enables attribute arrays, and performs the drawing using glDrawArrays.
 
+![aa](https://github.com/hakankabayell/OpenGL-ES-2.0-CompassIndicatorSimulation/assets/127239422/ca489746-cc0e-498e-9d07-daf762db850a)
+
 * drawNeedle() Function:
 
 This function draws the needle of a compass. It creates two colored triangles representing the needle, sets up shader uniform values, and draws the triangles using glDrawArrays.
+
+![need](https://github.com/hakankabayell/OpenGL-ES-2.0-CompassIndicatorSimulation/assets/127239422/734a5da9-a326-4628-8383-5123b345d535)
 
 * rotateNeedle() Function:
 
@@ -45,6 +50,8 @@ This function rotates the needle towards a target rotation angle. It calculates 
 * prepareMoving() Function:
 
 This function prepares and performs needle rotation towards a target angle. It calculates the target rotation angle, rotates the needle, and checks if the target is reached.
+
+![aaa](https://github.com/hakankabayell/OpenGL-ES-2.0-CompassIndicatorSimulation/assets/127239422/1cd57656-137e-4726-b7d7-51e76e83ebab)
 
 * destroyEGLContext() Function:
 
