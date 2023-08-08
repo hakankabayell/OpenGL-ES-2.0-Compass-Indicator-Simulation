@@ -13,6 +13,13 @@ LIBRARIES
 * #include <math.h>: This header file includes various mathematical functions and constants. It's used in the code to perform mathematical calculations, such as trigonometric functions for positioning and rotating elements.
 
 * "stb_image.h": This is a custom header file that likely includes declarations and functions for loading image data using the STB Image library. STB Image is a popular library for loading various image formats, and it's used here to load texture data for the OpenGL application.
+
+* "pusula_degiskenler.h": Custom header for variable definitions.
+  
+* "pusula_shaderSource.h": Custom header for shader source code.
+  
+* "textureData.h": Custom header for texture data.
+  
 **********************************************************
 FUNCTIONS
 
